@@ -1,0 +1,57 @@
+/* Proper classes*/
+.Content-Header {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: xx-large;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Content-Subheader {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: x-large;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Content-Body {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: x-large;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Content-Frame {
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .Content-Body {
+        color: white;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: large;
+    }
+}
+
+
+
+/* Style classes */
+.Content-Centre {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+}
+
+.Content-Top-Element {
+    margin-top: 2.5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .Content-Top-Element {
+        margin-top: 10%;
+    }
+}

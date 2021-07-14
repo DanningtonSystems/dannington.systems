@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap);
+
+.Core {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.Core-nav {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+.Core-nav-item {
+  display: inline-block;
+  padding-top: 0;
+  margin-left: 1.5%;
+  padding-bottom: 0;
+}
+
+.Core-nav-text {
+  font-family: "Red Hat Display", sans-serif;
+  color: #54575a;
+  text-decoration: none;
+}
+
+.Core-nav-header {
+  display: inline-block;
+  padding-top: 0%;
+  margin-left: 1.5%;
+  padding-bottom: 0%;
+  font-family: "Red Hat Display", sans-serif;
+  color: #276fbf;
+}
+
+.Core-nav-text:hover {
+  color: #18191a;
+}
+
+.Core-content {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.Core-footer {
+  margin-top: 5%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .Core-nav-item {
+    display: inline-block;
+    padding-top: 0.5%;
+    margin-left: 2.5%;
+    padding-bottom: 0.5%;
+    font-family: "Red Hat Display", sans-serif;
+  }
+
+  .Core-nav-text {
+    font-family: "Red Hat Display", sans-serif;
+    color: #54575a;
+    text-decoration: none;
+    font-size: medium;
+  }
+
+  .Core-nav-header {
+    display: inline-block;
+    padding-top: 0.5%;
+    margin-left: 1.5%;
+    padding-bottom: 0.5%;
+    font-family: "Red Hat Display", sans-serif;
+    text-decoration: none;
+  }
+  
+  .Core-nav-text:hover {
+    color: #18191a;
+    text-decoration: none;
+  }
+
+  .Core-footer {
+    margin-top: 10%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.Core-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
